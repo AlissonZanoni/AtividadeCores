@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnResetar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layoutBlack"
+            android:layout_width="205dp"
+            android:layout_height="250dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layoutRed"
+            android:layout_width="205dp"
+            android:layout_height="250dp"
+            android:background="@color/red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layoutGreen"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/green"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layoutBlue"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:background="@color/blue"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layoutYellow"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"/>
+    </LinearLayout>
+</LinearLayout>
