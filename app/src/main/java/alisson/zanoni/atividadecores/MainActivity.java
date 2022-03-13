@@ -2,7 +2,6 @@ package alisson.zanoni.atividadecores;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -28,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         layoutGreen = findViewById(R.id.layoutGreen);
         layoutBlue = findViewById(R.id.layoutBlue);
         layoutYellow = findViewById(R.id.layoutYellow);
-
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
         int preferenciaBackground = preferences.getInt("Cor Background", 0);
